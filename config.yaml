@@ -1,0 +1,25 @@
+# Changes take place after restart (if enabled in startup) or manually through (re)starting cbman_listener.exe.
+
+# Hotkey to open cbman.exe.
+# Default: ctrl+alt+<
+cbman_hotkey: ctrl+alt+<
+
+# Prefix for inserting placeholder values.
+# Default: §§
+prefix: §§
+
+# Amount of seconds allowed to pass between placeholder key presses.
+# Default: 2
+placeholder_timeout: 2
+
+# Amount of seconds allowed to pass between hotkey key presses.
+# Default: 2
+hotkey_timeout: 2
+
+# Path to the placeholders pickle file.
+# Default: placeholders
+placeholders_path: placeholders
+
+# Path to the cbman executable file, cbman.exe (in relation to cbman_listened.exe).
+# Default: cbman.exe
+cbman_path: cbman.exe
